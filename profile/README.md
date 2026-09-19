@@ -28,10 +28,7 @@ It is not an agent framework. A flow is a fixed graph with no agent loop. Models
 
 ## Repositories
 
-| Repository | What it is |
-| --- | --- |
-| [**milford**](https://github.com/milfordai/milford) | The engine, the HTTP and MCP servers, providers and channels. Apache-2.0. |
-| [**examples**](https://github.com/milfordai/examples) | Runnable examples: decision routing, home automation and error classification. |
+The engine and the runnable examples will be public with the first release. This page will link them then.
 
 ## Status
 
