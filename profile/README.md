@@ -26,13 +26,25 @@ It is not an agent framework. A flow is a fixed graph with no agent loop. Models
 - **MCP both ways:** expose flows as tools to LLM clients, and call other MCP servers from a flow.
 - **One Docker image, no database:** for `linux/amd64` and `linux/arm64`.
 
+## Get started
+
+```bash
+npx @milfordai/server milford.config.yaml
+```
+
+The packages are on npm under [`@milfordai`](https://www.npmjs.com/org/milfordai), and the documentation is at [milford.mintlify.site](https://milford.mintlify.site).
+
 ## Repositories
 
-The engine and the runnable examples will be public with the first release. This page will link them then.
+| Repository | What it is |
+| --- | --- |
+| [**milford**](https://github.com/milfordai/milford) | The engine, the HTTP and MCP servers, providers and channels. Apache-2.0. |
+
+Runnable examples will follow in a separate repository.
 
 ## Status
 
-Milford is in early development. The first public release is coming, and the config format can still change until then.
+Milford is in early development. The first release, 0.0.3, is on npm, and the config format can still change.
 
 ## Get in touch
 
